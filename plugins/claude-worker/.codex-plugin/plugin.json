@@ -1,0 +1,34 @@
+{
+  "name": "claude-worker",
+  "version": "0.1.0",
+  "description": "Unofficial bridge that lets Codex start, resume, inspect, and cancel local Claude Code jobs. Not affiliated with or endorsed by Anthropic or OpenAI.",
+  "author": {
+    "name": "KylinMountain",
+    "url": "https://github.com/KylinMountain"
+  },
+  "homepage": "https://github.com/KylinMountain/claude-worker-for-codex",
+  "repository": "https://github.com/KylinMountain/claude-worker-for-codex",
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "codex",
+    "bridge",
+    "delegation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claude Worker",
+    "shortDescription": "Unofficial bridge to local Claude Code jobs.",
+    "longDescription": "A dependency-free, unofficial local bridge that invokes the Claude Code CLI already installed on your machine, so Codex can start, resume, inspect, and cancel Claude Code jobs with durable state and logs. It is community software and is not affiliated with, endorsed by, or supported by Anthropic or OpenAI.",
+    "developerName": "KylinMountain",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/KylinMountain/claude-worker-for-codex",
+    "defaultPrompt": [
+      "Run a Claude Code task in this workspace."
+    ]
+  }
+}
